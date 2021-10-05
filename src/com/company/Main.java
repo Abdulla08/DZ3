@@ -20,12 +20,9 @@ public class Main {
                 continue;
             }
             System.out.println(result / i);
-
         }
         sort(array);
-
     }
-
     private static void sort(int[] currentElem) {
         int size = currentElem.length;
         for (int i = 0; i < size - 1; i++) {
